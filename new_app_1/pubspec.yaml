@@ -35,8 +35,14 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   
-  # Add flutter_rating_bar package here (inside dependencies)
+  # Add flutter_rating_bar package for Task 17
   flutter_rating_bar: ^4.0.1
+  
+  # Add shared_preferences package for Task 18
+  shared_preferences: ^2.2.2
+  
+  # Add url_launcher package for Task 16 (optional)
+  url_launcher: ^6.2.5
 
 dev_dependencies:
   flutter_test:

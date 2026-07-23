@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'tasks/task17.dart';  // Import task17.dart
+import 'tasks/task18.dart';  // Import task18.dart
 
 void main() {
   runApp(const MyApp());
@@ -11,13 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Student Assignment Portal',
+      title: 'Student Placement Registration',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
         useMaterial3: true,
         fontFamily: 'Roboto',
       ),
-      home: const StudentAssignmentPortal(),
+      home: const StudentPlacementRegistration(),
       debugShowCheckedModeBanner: false,
     );
   }
