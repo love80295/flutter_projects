@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
-import 'Tasks/task10.dart';
+import 'Tasks/task11.dart';
 
 void main() {
-  runApp(const Task10());
+  runApp(
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SmartCafeApp(),
+    ),
+  );
 }
